@@ -7,15 +7,7 @@ func HashCode(dec string) string {
 		if hash_code < 32 {
 			hash_code += 33
 		}
-		vaotrix += string(rune(hash_code))
+		vaotrix = vaotrix + string(rune(hash_code))
 	}
 	return vaotrix
 }
-
-//for i := len(dec) + 1 ; i > 0 ; i++ {
-//if dec[i] >= 'A' && dec[i] <= 'z' {
-//dec
-//}
-//}
-//return dec
-//}
