@@ -22,7 +22,7 @@ func RepeatAlpha(s string) string {
 			res += string(s[i])
 		}
 	}
-
+	
 	return res
 }
 
