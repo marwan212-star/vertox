@@ -1,5 +1,5 @@
 package piscine
 
-func __mains__(x, y int) int {
+func X__mains__(x, y int) int {
 	return x - y
 }
