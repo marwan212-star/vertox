@@ -7,8 +7,6 @@ func NoSpace(word string) string {
 			str += string(word[i])
 		}
 	}
-
-
 	return str
 }
 /*
